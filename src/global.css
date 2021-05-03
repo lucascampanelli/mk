@@ -5,19 +5,240 @@
     outline: none;
     border: none;
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    header{
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        z-index: 3;
+    }
+
+    .logoHeader{
+        width: 80px;
+        height: 80px;
+    }
+
+    .navigation{
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menuList{
+        list-style: none;
+        float: right;
+    }
+
+    .menuOption{
+        cursor: pointer;
+        font-size: 12px;
+        display: inline;
+        margin-right: 53px;
+        color: white !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOptionSelected{
+        cursor: pointer;
+        font-size: 12.33px;
+        display: inline;
+        margin-right: 86px;
+        color: #ffc900 !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOption:hover{
+        font-size: 12.2px;
+        color: #ffc900 !important;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    header{
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        z-index: 3;
+    }
+
+    .logoHeader{
+        width: 80px;
+        height: 80px;
+    }
+
+    .navigation{
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menuList{
+        list-style: none;
+        float: right;
+    }
+
+    .menuOption{
+        cursor: pointer;
+        font-size: 12px;
+        display: inline;
+        margin-right: 53px;
+        color: white !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOptionSelected{
+        cursor: pointer;
+        font-size: 12.33px;
+        display: inline;
+        margin-right: 86px;
+        color: #ffc900 !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOption:hover{
+        font-size: 12.2px;
+        color: #ffc900 !important;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    header{
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        z-index: 3;
+    }
+
+    .logoHeader{
+        width: 80px;
+        height: 80px;
+    }
+
+    .navigation{
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menuList{
+        list-style: none;
+        float: right;
+    }
+
+    .menuOption{
+        cursor: pointer;
+        font-size: 12px;
+        display: inline;
+        margin-right: 74px;
+        color: white !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOptionSelected{
+        cursor: pointer;
+        font-size: 12.33px;
+        display: inline;
+        margin-right: 86px;
+        color: #ffc900 !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOption:hover{
+        font-size: 12.2px;
+        color: #ffc900 !important;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    header{
+        background-color: #222222;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        z-index: 3;
+    }
+
+    .logoHeader{
+        width: 80px;
+        height: 80px;
+    }
+
+    .navigation{
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menuList{
+        list-style: none;
+        float: right;
+    }
+
+    .menuOption{
+        cursor: pointer;
+        font-size: 12px;
+        display: inline;
+        margin-right: 86px;
+        color: white !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOptionSelected{
+        cursor: pointer;
+        font-size: 12.33px;
+        display: inline;
+        margin-right: 86px;
+        color: #ffc900 !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOption:hover{
+        font-size: 12.3px;
+        color: #ffc900 !important;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -39,7 +260,6 @@
     }
 
     .navigation{
-        padding-top: 12px;
         float: right;
         width: 100%;
         text-align: center;
@@ -51,8 +271,29 @@
     }
 
     .menuOption{
+        cursor: pointer;
+        font-size: 14px;
         display: inline;
-        margin-right: 70px;
+        margin-right: 93px;
         color: white !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOptionSelected{
+        cursor: pointer;
+        font-size: 14.33px;
+        display: inline;
+        margin-right: 93px;
+        color: #ffc900 !important;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+    }
+
+    .menuOption:hover{
+        font-size: 14.2px;
+        color: #ffc900 !important;
     }
 }

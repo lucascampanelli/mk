@@ -6,7 +6,7 @@ import './index.css';
 export default function Home(){
     return(
         <>
-        <Header/>
+        <Header selected="home"/>
         <section className="firstContact">
             <h1>MK Studio</h1>
             <h2>Uma página na web é o que você precisa para ter sucesso!</h2>
