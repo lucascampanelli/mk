@@ -1,15 +1,18 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import Home from './views/Home';
 
 export default function Routes() {
-    <BrowserRouter>
+    return(
+        <BrowserRouter>
         <Switch>
 
-            <Route exact path='/' component={} />
-            <Route path='/portfolio' component={} />
-            <Route path='/orcamento' component={} />
-            <Route path='/servicos' component={} />
+            <Route exact path='/' component={Home} />
+            <Route path='/portfolio' component={Home} />
+            <Route path='/orcamento' component={Home} />
+            <Route path='/servicos' component={Home} />
 
         </Switch>
-    </BrowserRouter>
+        </BrowserRouter>
+    );
 }
