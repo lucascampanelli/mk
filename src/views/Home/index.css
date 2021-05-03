@@ -20,7 +20,21 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .firstContact{
+        padding: 100px 30px;
         width: 100%;
-        background-color: magenta;
+        height: 100vh;
+        background-image: url('../../assets/home_aurora.gif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 36px;
+    }
+
+    .firstContactTitle{
+        color: #ffffff;
+    }
+
+    .firstContactSubtitle{
+        color: #ffffff;
     }
 }

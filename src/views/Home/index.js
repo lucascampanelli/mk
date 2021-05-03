@@ -8,8 +8,8 @@ export default function Home(){
         <>
         <Header/>
         <section className="firstContact">
-            <h1>MK Studio</h1>
-            <h2>Uma página na web é o que você precisa para ter sucesso!</h2>
+            <h1 className="firstContactTitle">MK Studio</h1>
+            <h2 className="firstContactSubtitle">Uma página na web é o que você precisa para ter sucesso!</h2>
         </section>
         <Footer/>
         </>
