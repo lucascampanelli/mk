@@ -6,9 +6,10 @@ export default function Header(props){
     const history = useHistory();
 
     const selected = props.selected;
+    const bgOpacity = props.bgOpacity;
 
     return(
-        <header>
+        <header styles={`backgroundColor: #000000${bgOpacity} !important`} >
             <img src='mk_logo1.svg' alt='Logo da MK Studio.' className='logoHeader'/>
             <nav class='navigation'>
                 <ul className='menuList'>
