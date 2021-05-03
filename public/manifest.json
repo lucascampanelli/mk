@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MK Studio",
+  "name": "Todo negócio precisa estar presente na internet. A MK Studio te ajuda a destacar sua empresa on-line.",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "mk_logo1.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "mk_logo1.svg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "mk_logo1.svg",
       "type": "image/png",
       "sizes": "512x512"
     }
