@@ -7,10 +7,33 @@ export default function Orcamento(){
     return(
         <>
         <Header selected="orcamento" bgOpacity="00"/>
-        <section className="firstContact">
-            <h1 className="firstContactTitle">MK Studio</h1>
-            <h2 className="firstContactSubtitle">Uma página na web é o que você precisa para ter sucesso.</h2>
-        </section>
+        <main>
+            <article>
+                <section className="firstContact">
+                    <h1 className="firstContactTitle">Orçamento</h1>
+                    <h2 className="firstContactSubtitle">Entre em contato conosco</h2>
+                    <div className="apresentationDiv">
+                        <p className="apresentationDesc">Você está no lugar certo! A MK Studio tem experiência e utiliza as tecnologias mais modernas para divulgar o seu negócio</p>
+                    </div>
+                </section>
+                <section className="contact">
+                    <h2 className="titleBlack">Fale um pouco sobre o seu negócio</h2>
+                    <div className='contactContent'>
+                        <div className="leftContact">
+                            <p></p>
+                        </div>
+                        <div className="rightContact">
+                            <div className="formArea">
+                                <form>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+        
         <Footer/>
         </>
     );
