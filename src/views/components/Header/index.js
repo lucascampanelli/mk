@@ -9,9 +9,9 @@ export default function Header(props){
     const bgOpacity = props.bgOpacity;
 
     return(
-        <header styles={`backgroundColor: #000000${bgOpacity} !important`} >
+        <header style={{backgroundColor: '#000000'+bgOpacity}} >
             <img src='mk_logo1.svg' alt='Logo da MK Studio.' className='logoHeader'/>
-            <nav class='navigation'>
+            <nav className='navigation'>
                 <ul className='menuList'>
                     {(selected === 'home') ? <li className='menuOptionSelected' onClick={() => history.push('/')}>Início</li> : <li className='menuOption' onClick={() => history.push('/')}>Início</li>}
                     {(selected === 'portfolio') ? <li className='menuOptionSelected' onClick={() => history.push('/portfolio')}>Portfólio</li> : <li className='menuOption' onClick={() => history.push('/portfolio')}>Portfólio</li>}
