@@ -8,6 +8,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: #fcfcfc;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
 }
