@@ -124,22 +124,31 @@
         color: #ffffff;
         font-size: 50px;
         font-weight: 600;
+        line-height: 60px;
     }
 
     .firstContactButton{
+        cursor: pointer;
+        border-radius: 50px;
         position: absolute;
         bottom: 50px;
         left: 0;
         right: 0;
         margin: auto;
-        padding: 5px 30px;
-        border-radius: 50px;
+        width: 200px;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
         text-align: center;
         font-weight: 700;
         font-size: 20px;
     }
 
     .mainSection{
+        overflow: hidden;
+        position: relative;
         padding: 60px 100px;
         height: 100vh;
         width: 100%;
@@ -152,17 +161,30 @@
     }
 
     .mainSectionSubitle{
+        width: 50%;
         color: #000000;
         font-size: 30px;
         font-weight: 600;
+        line-height: 40px;
         margin-bottom: 50px;
     }
 
     .mainSectionParagraph{
+        position: relative;
+        z-index: 2;
         color: #888888;
         font-size: 20px;
         font-weight: 400;
-        width: 50%;
+        width: 45%;
         margin-bottom: 10px;
+    }
+
+    .mainSectionVector{
+        position: absolute;
+        z-index: 1;
+        right: -30px;
+        bottom: 0;
+        height: auto;
+        width: 58%;
     }
 }
