@@ -21,12 +21,72 @@
         font-size: 30px;
         font-weight: 600;
     }
+
+    .firstContactButton{
+        cursor: pointer;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 90%;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .mainSection{
+        overflow: hidden;
+        position: relative;
+        padding: 20px 30px 60vw 30px;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .mainSectionTitle{
+        color: #000000;
+        font-size: 12vw;
+        font-weight: 700;
+        line-height: 15vw;
+        margin-bottom: 20px;
+    }
+
+    .mainSectionSubitle{
+        width: 90%;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .mainSectionParagraph{
+        position: relative;
+        z-index: 2;
+        color: #888888;
+        font-size: 4vw;
+        font-weight: 400;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mainSectionVector{
+        display: block;
+        height: auto;
+        width: 90%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .firstContact{
-        padding: 100px 100px;
+        padding: 100px 50px;
         width: 100%;
         height: 100vh;
         background-image: url('../../assets/home_aurora.gif');
@@ -46,6 +106,152 @@
         color: #ffffff;
         font-size: 50px;
         font-weight: 600;
+    }
+
+    .firstContactButton{
+        cursor: pointer;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .mainSection{
+        overflow: hidden;
+        position: relative;
+        padding: 50px 60px 200px 60px;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .mainSectionTitle{
+        color: #000000;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 65px;
+        margin-bottom: 20px;
+    }
+
+    .mainSectionSubitle{
+        width: 90%;
+        color: #000000;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .mainSectionParagraph{
+        position: relative;
+        z-index: 2;
+        color: #888888;
+        font-size: 22px;
+        font-weight: 400;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mainSectionVector{
+        display: block;
+        height: auto;
+        width: 90%;
+    }
+}
+
+@media only screen and (width: 720px) {
+    .firstContact{
+        padding: 100px 100px;
+        width: 100%;
+        height: 100vh;
+        background-image: url('../../assets/home_aurora.gif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .firstContactTitle{
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    .firstContactSubtitle{
+        color: #ffffff;
+        font-size: 40px;
+        line-height: 46px;
+        font-weight: 600;
+    }
+
+    .firstContactButton{
+        cursor: pointer;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .mainSection{
+        overflow: hidden;
+        position: relative;
+        padding: 30px 60px 400px 60px;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .mainSectionTitle{
+        color: #000000;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 65px;
+        margin-bottom: 20px;
+    }
+
+    .mainSectionSubitle{
+        width: 90%;
+        color: #000000;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .mainSectionParagraph{
+        position: relative;
+        z-index: 2;
+        color: #888888;
+        font-size: 22px;
+        font-weight: 400;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mainSectionVector{
+        display: block;
+        height: auto;
+        width: 90%;
     }
 }
 
@@ -73,6 +279,66 @@
         font-size: 50px;
         font-weight: 600;
     }
+
+    .firstContactButton{
+        cursor: pointer;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .mainSection{
+        overflow: hidden;
+        position: relative;
+        padding: 100px 60px 200px 60px;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .mainSectionTitle{
+        color: #000000;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 65px;
+        margin-bottom: 20px;
+    }
+
+    .mainSectionSubitle{
+        width: 90%;
+        color: #000000;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .mainSectionParagraph{
+        position: relative;
+        z-index: 2;
+        color: #888888;
+        font-size: 22px;
+        font-weight: 400;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .mainSectionVector{
+        display: block;
+        height: auto;
+        width: 90%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -98,6 +364,64 @@
         color: #ffffff;
         font-size: 50px;
         font-weight: 600;
+    }
+
+    .firstContactButton{
+        cursor: pointer;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 200px;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .mainSection{
+        overflow: hidden;
+        position: relative;
+        padding: 60px 100px;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .mainSectionTitle{
+        color: #000000;
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .mainSectionSubitle{
+        width: 80%;
+        color: #000000;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+
+    .mainSectionParagraph{
+        position: relative;
+        z-index: 2;
+        color: #888888;
+        font-size: 20px;
+        font-weight: 400;
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .mainSectionVector{
+        display: block;
+        height: auto;
+        width: 58%;
     }
 }
 
@@ -149,8 +473,8 @@
     .mainSection{
         overflow: hidden;
         position: relative;
-        padding: 60px 100px;
-        height: 100vh;
+        padding: 70px 0px 0px 60px;
+        height: fit-content;
         width: 100%;
     }
 
@@ -169,22 +493,28 @@
         margin-bottom: 50px;
     }
 
+    .mainSectionContent{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
     .mainSectionParagraph{
+        grid-column: 1;
         position: relative;
         z-index: 2;
         color: #888888;
         font-size: 20px;
         font-weight: 400;
-        width: 45%;
+        width: 100%;
+        height: fit-content;
         margin-bottom: 10px;
     }
 
     .mainSectionVector{
-        position: absolute;
-        z-index: 1;
-        right: -30px;
-        bottom: 0;
+        grid-column: 2;
+        grid-row: 1;
+        display: block;
         height: auto;
-        width: 58%;
+        width: 100%;
     }
 }
