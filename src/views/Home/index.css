@@ -388,7 +388,7 @@
     .mainSection{
         overflow: hidden;
         position: relative;
-        padding: 60px 100px;
+        padding: 70px 0px 0px 60px;
         height: fit-content;
         width: 100%;
     }
@@ -400,7 +400,7 @@
     }
 
     .mainSectionSubitle{
-        width: 80%;
+        width: 50%;
         color: #000000;
         font-size: 30px;
         font-weight: 600;
@@ -408,20 +408,52 @@
         margin-bottom: 50px;
     }
 
+    .mainSectionContent{
+        position: relative;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
     .mainSectionParagraph{
+        grid-column: 1;
         position: relative;
         z-index: 2;
         color: #888888;
         font-size: 20px;
         font-weight: 400;
-        width: 45%;
+        width: 100%;
+        height: fit-content;
         margin-bottom: 10px;
     }
 
     .mainSectionVector{
+        grid-column: 2;
+        grid-row: 1;
         display: block;
         height: auto;
-        width: 58%;
+        width: 100%;
+    }
+
+    .mainSectionVectorDt1{
+        top: -50px;
+        right: 300px;
+        position: absolute;
+        width: 100px;
+        height: auto;
+        animation: forwards bubbleAnim 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes bubbleAnim {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-30px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
     }
 }
 
@@ -494,6 +526,7 @@
     }
 
     .mainSectionContent{
+        position: relative;
         display: grid;
         grid-template-columns: 50% 50%;
     }
@@ -516,5 +549,27 @@
         display: block;
         height: auto;
         width: 100%;
+    }
+
+    .mainSectionVectorDt1{
+        top: -100px;
+        right: 400px;
+        position: absolute;
+        width: 150px;
+        height: auto;
+        animation: forwards bubbleAnim 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes bubbleAnim {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-30px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
     }
 }

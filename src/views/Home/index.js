@@ -1,7 +1,9 @@
 import React, { useRef, useState } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import { ReactComponent as MKBUBBLEVECTOR } from '../../assets/mk_bubblevector.svg';
 import { ReactComponent as MKNBVECTOR } from '../../assets/mk_nbvector.svg';
+import { ReactComponent as MKPHVECTOR } from '../../assets/mk_phvector.svg';
 import { FaChevronDown } from 'react-icons/fa';
 import './index.css';
 
@@ -34,14 +36,20 @@ export default function Home(){
                             <p className="mainSectionParagraph">Para vender mais, conquistar mais seguidores, ou obter clientes a porta de entrada do negócio precisa ser: acessível, informativa, bonita e o mais importante de tudo... digital!</p>
                             <p className="mainSectionParagraph">Todo mundo gosta de praticidade e agilidade, e nós proporcionamos isso.</p>
                         </div>
-                        <MKNBVECTOR className="mainSectionVector"/>
+                        <MKBUBBLEVECTOR className="mainSectionVectorDt1"/>
+                        <MKNBVECTOR className="mainSectionVector"></MKNBVECTOR>
                     </div>
                 </section>
                 <section className="mainSection">
                     <h2 className="mainSectionTitle">Percebeu alguma diferença?</h2>
                     <h3 className="mainSectionSubitle">Nossas páginas são mais rápidas e otimizadas. 🏃‍♂️</h3>
-                    <p className="mainSectionParagraph">Uma página rápida significa maior interesse dos visitantes, que não perdem tempo ao navegar pelo seu site. Tudo direto ao ponto, sem travamentos, páginas congeladas e carregamentos demorados.</p>
-                    <p className="mainSectionParagraph">Já uma página otimizada representa uma página limpa com tudo o que o cliente precisa ao alcance dos olhos.</p>
+                    <div className="mainSectionContent">
+                        <div className="mainSectionParagraph">
+                            <p className="mainSectionParagraph">Uma página rápida significa maior interesse dos visitantes, que não perdem tempo ao navegar pelo seu site. Tudo direto ao ponto, sem travamentos, páginas congeladas e carregamentos demorados.</p>
+                            <p className="mainSectionParagraph">Já uma página otimizada representa uma página limpa com tudo o que o cliente precisa ao alcance dos olhos.</p>
+                        </div>
+                        <MKPHVECTOR className="mainSectionVector"/>
+                    </div>
                 </section>
             </article>
         </main>
