@@ -43,6 +43,15 @@ export default function Servicos(){
                         <div className="contentRight">
                             <MKNBVECTOR className="contentIllustration"/>
                         </div>
+
+                        <div className="contentLeft">
+                            <h3 className="servicesItem">Ilustrações</h3>
+                            <p className="servicesDescription">As ilustrações contribuem para que a identidade visual do seu projeto fique mais alegre.</p>
+                            <p className="servicesDescription">Criamos ilustrações e vetorizações de acordo com o que você precisar.</p>
+                        </div>
+                        <div className="contentRight">
+                            <MKNBVECTOR className="contentIllustration"/>
+                        </div>
                     </div>
                 </section>
             </article>
