@@ -1,0 +1,258 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .servicesContent{
+        width: 100%;
+        padding: 30px;
+        background-color: #fcfcfc;
+    }
+
+    .titleDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titleContent{
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+
+    .serviceList{
+        width: 100%;
+        
+    }
+
+    .servicesItem{
+        font-size: 22px;
+        color: #00a8fe;
+        margin-top: 30px;
+        margin-bottom: 12px;
+    }
+
+    .contentLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contentRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 22px;
+    }
+
+    .contentIllustration{
+        width: 90%;
+        height: auto;
+        margin-bottom: 33px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .servicesContent{
+        width: 100%;
+        padding: 30px;
+        background-color: #fcfcfc;
+    }
+
+    .titleDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titleContent{
+        font-size: 33px;
+    }
+
+    .serviceList{
+        width: 100%;
+    }
+
+    .servicesItem{
+        font-size: 22px;
+        color: #00a8fe;
+        margin-bottom: 12px;
+    }
+
+    .servicesDescription{
+        font-size: 17px;
+    }
+
+    .contentLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contentRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contentIllustration{
+        width: 90%;
+        height: auto;
+        margin-bottom: 53px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .servicesContent{
+        width: 100%;
+        padding: 30px;
+        background-color: #fcfcfc;
+    }
+
+    .titleDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titleContent{
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+
+    .contentAlignLeft{
+        width: 100%;
+        
+    }
+
+    .contentAlignRight{
+        width: 100%;
+    }
+
+    .servicesItem{
+        font-size: 22px;
+        color: #00a8fe;
+        margin-top: 30px;
+        margin-bottom: 12px;
+    }
+
+    .servicesDescription{
+        font-size: 17px;
+    }
+
+    .contentLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contentRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 22px;
+    }
+
+    .contentIllustration{
+        width: 90%;
+        height: auto;
+        margin-bottom: 33px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .servicesContent{
+        width: 100%;
+        padding: 50px;
+        background-color: #fcfcfc;
+    }
+
+    .titleDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titleContent{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .serviceList{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        width: 100%;
+    }
+
+    .servicesItem{
+        font-size: 33px;
+        color: #00a8fe;
+        margin-bottom: 33px;
+    }
+
+    .contentLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contentRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contentIllustration{
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .servicesContent{
+        width: 100%;
+        padding: 50px;
+        background-color: #fcfcfc;
+    }
+
+    .titleDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titleContent{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .serviceList{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        width: 100%;
+    }
+
+    .servicesItem{
+        font-size: 33px;
+        color: #00a8fe;
+        margin-bottom: 33px;
+    }
+
+    .contentLeft{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contentRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contentIllustration{
+        width: 90%;
+        height: auto;
+    }
+}

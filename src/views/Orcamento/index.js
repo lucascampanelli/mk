@@ -15,7 +15,7 @@ export default function Orcamento(){
 
     return(
         <>
-        <Header selected="portfolio" bgOpacity={headerOp}/>
+        <Header selected="orcamento" bgOpacity={headerOp}/>
         <main>
             <article>
                 <section className="firstContact">
