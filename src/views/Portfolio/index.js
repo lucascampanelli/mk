@@ -27,6 +27,15 @@ export default function Portfolio(){
     const opinionOnix = {message: "A melhor coisa que fizemos para alavancar nossas conversões foi contar com a MK Studio. Entregaram uma landing page em menos de uma semana e em poucos dias estávamos recebendo um número muito maior de ligações. Se você tiver oportunidade, conte com a MK Studio!!",
                          author: "Onix Auto Socorro"}
 
+    const titleOnixLogo = "Onix Auto Socorro";
+    const descOnixLogo = ["A Onix Auto Socorro presta serviços de guincho e confiou na MK Studio para desenvolver sua presença na web.",
+                          "Foram realizados serviços de criação de identidade visual, landing page e redes sociais.",
+                          "Com auxílio de estratégias de SEO e Marketing Digital, a Onix Auto Socorro conseguiu alcançar um público maior e está se destacando no mercado."];
+    const imagesOnixLogo = {banner: "onixlogo.png"};
+    const linkOnixLogo = "https://onixautosocorro.herokuapp.com/";
+    const opinionOnixLogo = {message: "A identidade visual criada pela MK Studio deu uma cara nova para a Onix Auto Socorro. O logotipo moderno e original fez muitos clientes nos reconhecerem pelas ruas.",
+                             author: "Onix Auto Socorro"}
+
     window.onscroll = () => {
         const scr = document.documentElement.scrollTop;
         if(scr > 40){ setHeaderOp('FF'); }
@@ -43,7 +52,16 @@ export default function Portfolio(){
                 setOpinion(opinionOnix);
                 setDetailsOpen(true);
                 break;
-        
+            
+            case "Onix Logo":
+                setTitle(titleOnixLogo);
+                setDescription(descOnixLogo);
+                setImages(imagesOnixLogo);
+                setLink(linkOnixLogo);
+                setOpinion(opinionOnixLogo);
+                setDetailsOpen(true);
+                break;
+
             default:
                 break;
         }
@@ -68,47 +86,10 @@ export default function Portfolio(){
                                 <h3 className="itemTitle">Onix Auto Socorro</h3>
                                 <span className="serviceType">Criação de site</span>
                             </div>
-                            <div className="contentItem">
-                                <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
-                                <h3 className="itemTitle">T-Shirt Joy</h3>
-                                <span className="serviceType">Criação de site</span>
-                            </div>
-                            <div className="contentItem">
-                                <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
-                                <h3 className="itemTitle">Talves Livros</h3>
-                                <span className="serviceType">Criação de site</span>
-                            </div>
-
-                            <div className="contentItem">
-                                <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
+                            <div className="contentItem" onClick={() => openDetails("Onix Logo")}>
+                                <img className="miniatureItem" src="onixlogo.png" alt="Serviço de criação de site da MK Studio" />
                                 <h3 className="itemTitle">Onix Auto Socorro</h3>
-                                <span className="serviceType">Criação de site</span>
-                            </div>
-                            <div className="contentItem">
-                                <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
-                                <h3 className="itemTitle">T-Shirt Joy</h3>
-                                <span className="serviceType">Criação de site</span>
-                            </div>
-                            <div className="contentItem">
-                                <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
-                                <h3 className="itemTitle">Talves Livros</h3>
-                                <span className="serviceType">Criação de site</span>
-                            </div>
-
-                            <div className="contentItem">
-                                <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
-                                <h3 className="itemTitle">Onix Auto Socorro</h3>
-                                <span className="serviceType">Criação de site</span>
-                            </div>
-                            <div className="contentItem">
-                                <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
-                                <h3 className="itemTitle">T-Shirt Joy</h3>
-                                <span className="serviceType">Criação de site</span>
-                            </div>
-                            <div className="contentItem">
-                                <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
-                                <h3 className="itemTitle">Talves Livros</h3>
-                                <span className="serviceType">Criação de site</span>
+                                <span className="serviceType">Criação de logo</span>
                             </div>
                         </div>
                     }
