@@ -48,6 +48,7 @@ body{
     }
 
     .navigation{
+        display: none;
         float: right;
         width: 100%;
         text-align: center;
@@ -64,7 +65,7 @@ body{
         font-weight: 600;
         display: inline;
         margin-right: 53px;
-        color: white !important;
+        color: black !important;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -85,6 +86,72 @@ body{
     .menuOption:hover{
         font-size: 12.2px;
         color: #ffc900;
+    }
+
+    .phoneMenu{
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 20;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .phoneMenuButton{
+        display: initial;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: auto;
+        right: 30px;
+        z-index: 22;
+        margin: auto;
+    }
+
+    .phoneMenuBackdrop{
+        background-color: #000000bb;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        opacity: 1;
+    }
+
+    .phoneMenuPanel{
+        padding: 70px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+        background-color: #fcfcfc;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: auto;
+        z-index: 21;
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .phoneMenuOptionSelected{
+        color: #006eff;
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    .phoneMenuOption{
+        color: #000000;
+        font-size: 8vw;
+        font-weight: 700;
     }
 
     footer{
@@ -122,6 +189,7 @@ body{
     }
 
     .navigation{
+        display: none;
         float: right;
         width: 100%;
         text-align: center;
@@ -138,7 +206,7 @@ body{
         font-weight: 600;
         display: inline;
         margin-right: 53px;
-        color: white;
+        color: black;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -159,6 +227,72 @@ body{
     .menuOption:hover{
         font-size: 12.2px;
         color: #ffc900;
+    }
+
+    .phoneMenu{
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 20;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .phoneMenuButton{
+        display: initial;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: auto;
+        right: 30px;
+        z-index: 22;
+        margin: auto;
+    }
+
+    .phoneMenuBackdrop{
+        background-color: #000000bb;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        opacity: 1;
+    }
+
+    .phoneMenuPanel{
+        padding: 70px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+        background-color: #fcfcfc;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: auto;
+        z-index: 21;
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .phoneMenuOptionSelected{
+        color: #006eff;
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    .phoneMenuOption{
+        color: #000000;
+        font-size: 8vw;
+        font-weight: 700;
     }
 
     footer{
@@ -196,6 +330,7 @@ body{
     }
 
     .navigation{
+        display: initial;
         float: right;
         width: 100%;
         text-align: center;
@@ -208,11 +343,11 @@ body{
 
     .menuOption{
         cursor: pointer;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 600;
         display: inline;
         margin-right: 74px;
-        color: white;
+        color: black;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -220,19 +355,23 @@ body{
 
     .menuOptionSelected{
         cursor: pointer;
-        font-size: 12.33px;
+        font-size: 16px;
         font-weight: 600;
         display: inline;
         margin-right: 86px;
-        color: #00d9ff;
+        color: #006eff;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
     }
 
     .menuOption:hover{
-        font-size: 12.2px;
-        color: #ffc900;
+        font-size: 17px;
+        color: #006eff;
+    }
+
+    .phoneMenuButton{
+        display: none;
     }
 
     footer{
@@ -270,6 +409,7 @@ body{
     }
 
     .navigation{
+        display: initial;
         float: right;
         width: 100%;
         text-align: center;
@@ -282,11 +422,11 @@ body{
 
     .menuOption{
         cursor: pointer;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 600;
         display: inline;
         margin-right: 86px;
-        color: white;
+        color: black;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -294,19 +434,23 @@ body{
 
     .menuOptionSelected{
         cursor: pointer;
-        font-size: 12.33px;
+        font-size: 16px;
         font-weight: 600;
         display: inline;
         margin-right: 86px;
-        color: #00d9ff;
+        color: #006eff;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
     }
 
     .menuOption:hover{
-        font-size: 12.3px;
-        color: #ffc900;
+        font-size: 17px;
+        color: #006eff;
+    }
+
+    .phoneMenuButton{
+        display: none;
     }
 
     footer{
@@ -344,6 +488,7 @@ body{
     }
 
     .navigation{
+        display: initial;
         float: right;
         width: 100%;
         text-align: center;
@@ -356,11 +501,11 @@ body{
 
     .menuOption{
         cursor: pointer;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         display: inline;
         margin-right: 93px;
-        color: white;
+        color: black;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -369,19 +514,23 @@ body{
 
     .menuOptionSelected{
         cursor: pointer;
-        font-size: 14.33px;
+        font-size: 16px;
         font-weight: 600;
         display: inline;
         margin-right: 93px;
-        color: #00d9ff;
+        color: #006eff;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
     }
 
     .menuOption:hover{
-        font-size: 14.2px;
-        color: #ffc900;
+        font-size: 17px;
+        color: #006eff;
+    }
+
+    .phoneMenuButton{
+        display: none;
     }
 
     footer{
