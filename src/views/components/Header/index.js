@@ -10,7 +10,7 @@ export default function Header(props){
     const phoneMenuBackdrop = useRef();
     const phoneMenuPanel = useRef();
 
-    const [isMenuOpen, setMenuOpen] = useState(true);
+    const [isMenuOpen, setMenuOpen] = useState(false);
     const [phoneMenuPosition, setMenuPosition] = useState(0);
 
     const selected = props.selected;

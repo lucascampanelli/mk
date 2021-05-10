@@ -370,6 +370,10 @@ body{
         color: #006eff;
     }
 
+    .phoneMenu{
+        display: none;
+    }
+
     .phoneMenuButton{
         display: none;
     }
@@ -447,6 +451,10 @@ body{
     .menuOption:hover{
         font-size: 17px;
         color: #006eff;
+    }
+
+    .phoneMenu{
+        display: none;
     }
 
     .phoneMenuButton{
@@ -527,6 +535,10 @@ body{
     .menuOption:hover{
         font-size: 17px;
         color: #006eff;
+    }
+
+    .phoneMenu{
+        display: none;
     }
 
     .phoneMenuButton{
