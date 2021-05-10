@@ -89,6 +89,7 @@ body{
     }
 
     .phoneMenu{
+        display: none;
         background-color: transparent;
         position: absolute;
         top: 0;
@@ -230,6 +231,7 @@ body{
     }
 
     .phoneMenu{
+        display: none;
         background-color: transparent;
         position: absolute;
         top: 0;
