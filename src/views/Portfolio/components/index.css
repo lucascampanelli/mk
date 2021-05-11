@@ -23,20 +23,22 @@
     }
 
     .projectName{
-        color: #00a8fe;
-        font-size: 33px;
-        line-height: 30px;
-        margin-bottom: 12px;
+        color: #006eff;
+        font-size: 12vw;
+        line-height: auto;
+        margin-bottom: 20px;
         text-align: left;
     }
 
     .projectDescription{
+        color: #888888;
+        font-size: 4vw;
         margin-bottom: 3px;
     }
 
     .imageList{
         width: 100%;
-        margin-top: 53px;
+        margin-top: 100px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -47,12 +49,13 @@
         align-items: center;
         float: right;
         margin-top: 20px;
-        color: #555555;
+        color: #888888;
+        font-size: 4vw;
         text-decoration: none;
     }
 
     .imagePresentation{
-        width: 98%;
+        width: 100%;
         height: auto;
         cursor: pointer;
     }
@@ -61,27 +64,27 @@
         width: 100%;
         height: auto;
         cursor: pointer;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .detailOpinion{
         display: block;
         height: fit-content;
-        padding: 30px;
+        padding: 100px 30px;
         background-color: #fcfcfc;
         width: 100%;
     }
 
     .titleDiv{
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     .titleOpinion{
         color: black;
-        font-size: 33px;
-        line-height: 33px;
+        font-size: 12vw;
+        line-height: 55px;
     }
 
     .opinionContent{
@@ -92,41 +95,45 @@
 
     .opinionMessage{
         margin-top: 50px;
-        color: #141414;
-        font-size: 17px;
+        color: #888888;
+        text-align: center;
+        font-size: 4vw;
     }
 
     .messageAuthor{
-        margin-top: 10px;
-        font-size: 19px;
-        color: #3b3b3b;
-        font-weight: 400;
+        margin-top: 50px;
+        font-size: 4vw;
+        color: #888888;
+        font-weight: 600;
     }
 
     .detailOffer{
         width: 100%;
-        background-color: #ffc400;
-        height: 286px;
+        background: linear-gradient(-180deg, rgba(255,231,0,1) -20%, rgba(255,188,0,1) 80%);
+        padding: 50px 30px;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: left;
     }
 
     .textOffer{
-        font-size: 22px;
-        width: 80%;
+        font-size: 12vw;
+        width: 100%;
     }
 
     .btnOffer{
         cursor: pointer;
-        background-color: #ffc400;
-        margin-top: 33px;
+        background-color: transparent;
+        margin-top: 50px;
+        font-size: 4vw;
         font-weight: 900;
         border: 4px solid black;
-        border-radius: 22px;
-        height: 50px;
-        width: 250px;
+        border-radius: 50px;
+        height: 60px;
+        width: 100%;
     }
 
     .closeBtn{
@@ -134,7 +141,8 @@
         position: absolute;
         top: -20px;
         cursor: pointer;
-        font-size: 20px;
+        color: #888888;
+        font-size: 4vw;
         align-items: center;
     }
 }
@@ -144,7 +152,7 @@
     .detailContent{
         position: relative;
         height: fit-content;
-        padding: 30px;
+        padding: 50px;
         background-color: #fcfcfc;
         width: 100%;
     }
@@ -164,20 +172,22 @@
     }
 
     .projectName{
-        color: #00a8fe;
-        font-size: 33px;
-        line-height: 30px;
-        margin-bottom: 12px;
+        color: #006eff;
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 20px;
         text-align: left;
     }
 
     .projectDescription{
+        color: #888888;
+        font-size: 4vw;
         margin-bottom: 3px;
     }
 
     .imageList{
         width: 100%;
-        margin-top: 53px;
+        margin-top: 100px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -188,12 +198,13 @@
         align-items: center;
         float: right;
         margin-top: 20px;
-        color: #555555;
+        color: #888888;
+        font-size: 4vw;
         text-decoration: none;
     }
 
     .imagePresentation{
-        width: 98%;
+        width: 100%;
         height: auto;
         cursor: pointer;
     }
@@ -202,14 +213,14 @@
         width: 100%;
         height: auto;
         cursor: pointer;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .detailOpinion{
         display: block;
         height: fit-content;
-        padding: 30px;
+        padding: 100px 50px;
         background-color: #fcfcfc;
         width: 100%;
     }
@@ -221,8 +232,8 @@
 
     .titleOpinion{
         color: black;
-        font-size: 33px;
-        line-height: 33px;
+        font-size: 50px;
+        line-height: 55px;
     }
 
     .opinionContent{
@@ -233,41 +244,45 @@
 
     .opinionMessage{
         margin-top: 50px;
-        color: #141414;
-        font-size: 17px;
+        color: #888888;
+        text-align: center;
+        font-size: 4vw;
     }
 
     .messageAuthor{
-        margin-top: 10px;
-        font-size: 19px;
-        color: #3b3b3b;
-        font-weight: 400;
+        margin-top: 50px;
+        font-size: 4vw;
+        color: #888888;
+        font-weight: 600;
     }
 
     .detailOffer{
         width: 100%;
-        background-color: #ffc400;
-        height: 286px;
+        background: linear-gradient(-180deg, rgba(255,231,0,1) -20%, rgba(255,188,0,1) 80%);
+        padding: 50px;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .textOffer{
-        font-size: 22px;
-        width: 80%;
+        font-size: 50px;
+        width: 100%;
     }
 
     .btnOffer{
         cursor: pointer;
-        background-color: #ffc400;
-        margin-top: 33px;
+        background-color: transparent;
+        margin-top: 50px;
+        font-size: 4vw;
         font-weight: 900;
-        border: 4px solid black;
-        border-radius: 22px;
-        height: 50px;
-        width: 250px;
+        border: 6px solid black;
+        border-radius: 50px;
+        height: 80px;
+        width: 100%;
     }
 
     .closeBtn{
@@ -275,7 +290,8 @@
         position: absolute;
         top: -20px;
         cursor: pointer;
-        font-size: 20px;
+        color: #888888;
+        font-size: 30px;
         align-items: center;
     }
 }
@@ -285,7 +301,7 @@
     .detailContent{
         position: relative;
         height: fit-content;
-        padding: 30px;
+        padding: 50px;
         background-color: #fcfcfc;
         width: 100%;
     }
@@ -305,20 +321,22 @@
     }
 
     .projectName{
-        color: #00a8fe;
-        font-size: 33px;
-        line-height: 30px;
-        margin-bottom: 12px;
+        color: #006eff;
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 20px;
         text-align: left;
     }
 
     .projectDescription{
+        color: #888888;
+        font-size: 30px;
         margin-bottom: 3px;
     }
 
     .imageList{
         width: 100%;
-        margin-top: 53px;
+        margin-top: 100px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -329,12 +347,13 @@
         align-items: center;
         float: right;
         margin-top: 20px;
-        color: #555555;
+        color: #888888;
+        font-size: 30px;
         text-decoration: none;
     }
 
     .imagePresentation{
-        width: 98%;
+        width: 100%;
         height: auto;
         cursor: pointer;
     }
@@ -343,14 +362,14 @@
         width: 100%;
         height: auto;
         cursor: pointer;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .detailOpinion{
         display: block;
         height: fit-content;
-        padding: 30px;
+        padding: 100px 50px;
         background-color: #fcfcfc;
         width: 100%;
     }
@@ -362,8 +381,8 @@
 
     .titleOpinion{
         color: black;
-        font-size: 33px;
-        line-height: 33px;
+        font-size: 50px;
+        line-height: 55px;
     }
 
     .opinionContent{
@@ -374,41 +393,45 @@
 
     .opinionMessage{
         margin-top: 50px;
-        color: #141414;
-        font-size: 17px;
+        color: #888888;
+        text-align: center;
+        font-size: 30px;
     }
 
     .messageAuthor{
         margin-top: 10px;
-        font-size: 19px;
-        color: #3b3b3b;
-        font-weight: 400;
+        font-size: 26px;
+        color: #888888;
+        font-weight: 600;
     }
 
     .detailOffer{
         width: 100%;
-        background-color: #ffc400;
-        height: 286px;
+        background: linear-gradient(-180deg, rgba(255,231,0,1) -20%, rgba(255,188,0,1) 80%);
+        padding: 50px;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .textOffer{
-        font-size: 22px;
-        width: 80%;
+        font-size: 50px;
+        width: 100%;
     }
 
     .btnOffer{
         cursor: pointer;
-        background-color: #ffc400;
-        margin-top: 33px;
+        background-color: transparent;
+        margin-top: 50px;
+        font-size: 30px;
         font-weight: 900;
-        border: 4px solid black;
-        border-radius: 22px;
-        height: 50px;
-        width: 250px;
+        border: 6px solid black;
+        border-radius: 50px;
+        height: 80px;
+        width: 500px;
     }
 
     .closeBtn{
@@ -416,7 +439,8 @@
         position: absolute;
         top: -20px;
         cursor: pointer;
-        font-size: 20px;
+        color: #888888;
+        font-size: 30px;
         align-items: center;
     }
 }
@@ -448,18 +472,19 @@
     }
 
     .projectName{
-        color: #00a8fe;
-        font-size: 40px;
-        margin-bottom: 12px;
+        color: #006eff;
+        font-size: 36px;
+        margin-bottom: 20px;
     }
 
     .projectDescription{
+        color: #888888;
         margin-bottom: 3px;
     }
 
     .imageList{
         width: 100%;
-        margin-top: 112px;
+        margin-top: 110px;
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -470,7 +495,7 @@
         align-items: center;
         float: right;
         margin-top: 20px;
-        color: #555555;
+        color: #888888;
         text-decoration: none;
     }
 
@@ -487,7 +512,7 @@
     .detailOpinion{
         display: block;
         height: fit-content;
-        padding: 74px;
+        padding: 75px;
         background-color: #fcfcfc;
         width: 100%;
     }
@@ -510,20 +535,22 @@
 
     .opinionMessage{
         margin-top: 50px;
-        color: #141414;
+        color: #888888;
+        text-align: center;
         font-size: 17px;
     }
 
     .messageAuthor{
-        margin-top: 10px;
+        margin-top: 50px;
         font-size: 19px;
-        color: #3b3b3b;
-        font-weight: 400;
+        color: #555555;
+        font-weight: 600;
     }
 
     .detailOffer{
         width: 100%;
-        background-color: #ffc400;
+        text-align: center;
+        background: linear-gradient(-180deg, rgba(255,231,0,1) -20%, rgba(255,188,0,1) 80%);
         height: 300px;
         display: flex;
         flex-direction: column;
@@ -537,7 +564,7 @@
 
     .btnOffer{
         cursor: pointer;
-        background-color: #ffc400;
+        background-color: transparent;
         margin-top: 33px;
         font-weight: 900;
         border: 4px solid black;
@@ -552,6 +579,8 @@
         top: -10px;
         cursor: pointer;
         font-size: 20px;
+        font-weight: 600;
+        color: #555555;
         align-items: center;
     }
 }
@@ -583,18 +612,19 @@
     }
 
     .projectName{
-        color: #00a8fe;
+        color: #006eff;
         font-size: 40px;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
     }
 
     .projectDescription{
+        color: #888888;
         margin-bottom: 3px;
     }
 
     .imageList{
         width: 100%;
-        margin-top: 112px;
+        margin-top: 110px;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -605,7 +635,7 @@
         align-items: center;
         float: right;
         margin-top: 20px;
-        color: #555555;
+        color: #888888;
         text-decoration: none;
     }
 
@@ -622,7 +652,7 @@
     .detailOpinion{
         display: block;
         height: fit-content;
-        padding: 74px;
+        padding: 75px;
         background-color: #fcfcfc;
         width: 100%;
     }
@@ -633,7 +663,7 @@
     }
 
     .titleOpinion{
-        color: black;
+        color: #000000;
         font-size: 40px;
     }
 
@@ -644,24 +674,26 @@
     }
 
     .opinionMessage{
+        text-align: center;
         margin-top: 50px;
-        color: #141414;
-        font-size: 28px;
+        color: #888888;
+        font-size: 24px;
     }
 
     .messageAuthor{
-        margin-top: 10px;
+        margin-top: 50px;
         font-size: 22px;
-        color: #3b3b3b;
-        font-weight: 400;
+        color: #555555;
+        font-weight: 600;
     }
 
     .detailOffer{
         width: 100%;
-        background-color: #ffc400;
+        background: linear-gradient(-180deg, rgba(255,231,0,1) -20%, rgba(255,188,0,1) 80%);
         height: 400px;
         display: flex;
         flex-direction: column;
+        text-align: center;
         justify-content: center;
         align-items: center;
     }
@@ -672,7 +704,7 @@
 
     .btnOffer{
         cursor: pointer;
-        background-color: #ffc400;
+        background-color: transparent;
         margin-top: 33px;
         font-weight: 900;
         border: 4px solid black;
@@ -687,6 +719,8 @@
         top: -10px;
         cursor: pointer;
         font-size: 20px;
+        font-weight: 600;
+        color: #555555;
         align-items: center;
     }
 }

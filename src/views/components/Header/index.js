@@ -72,7 +72,7 @@ export default function Header(props){
                     {(selected === 'home') ? <li className='menuOptionSelected' onClick={() => history.push('/')}>Início</li> : <li className='menuOption' onClick={() => history.push('/')}>Início</li>}
                     {(selected === 'portfolio') ? <li className='menuOptionSelected' onClick={() => history.push('/portfolio')}>Portfólio</li> : <li className='menuOption' onClick={() => history.push('/portfolio')}>Portfólio</li>}
                     {(selected === 'servicos') ? <li className='menuOptionSelected' onClick={() => history.push('/servicos')}>Serviços</li> : <li className='menuOption' onClick={() => history.push('/servicos')}>Serviços</li>}
-                    {(selected === 'orcamento') ? <li className='menuOptionSelected' onClick={() => history.push('/orcamento')}>Orçamento</li> : <li className='menuOption' onClick={() => history.push('/orcamento')}>Orçamento</li>}
+                    {(selected === 'orcamento') ? <li className='menuOptionSelectedAlt' onClick={() => history.push('/orcamento')}>Orçamento</li> : <li className='menuOptionAlt' onClick={() => history.push('/orcamento')}>Orçamento</li>}
                 </ul>
             </nav>
             { isMenuOpen ? <FaTimes className="phoneMenuButton" onClick={() => showPhoneMenu()}/> : <FaBars className="phoneMenuButton" onClick={() => showPhoneMenu()}/>}
@@ -82,7 +82,7 @@ export default function Header(props){
                     {(selected === 'home') ?        <li className='phoneMenuOptionSelected' onClick={() => history.push('/')}>Início</li> :             <li className='phoneMenuOption' onClick={() => history.push('/')}>Início</li>}
                     {(selected === 'portfolio') ?   <li className='phoneMenuOptionSelected' onClick={() => history.push('/portfolio')}>Portfólio</li> : <li className='phoneMenuOption' onClick={() => history.push('/portfolio')}>Portfólio</li>}
                     {(selected === 'servicos') ?    <li className='phoneMenuOptionSelected' onClick={() => history.push('/servicos')}>Serviços</li> :   <li className='phoneMenuOption' onClick={() => history.push('/servicos')}>Serviços</li>}
-                    {(selected === 'orcamento') ?   <li className='phoneMenuOptionSelected' onClick={() => history.push('/orcamento')}>Orçamento</li> : <li className='phoneMenuOption' onClick={() => history.push('/orcamento')}>Orçamento</li>}
+                    {(selected === 'orcamento') ?   <li className='phoneMenuOptionSelectedAlt' onClick={() => history.push('/orcamento')}>Orçamento</li> : <li className='phoneMenuOptionAlt' onClick={() => history.push('/orcamento')}>Orçamento</li>}
                 </ul>
             </nav>
         </header>

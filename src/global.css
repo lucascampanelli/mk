@@ -88,6 +88,42 @@ body{
         color: #ffc900;
     }
 
+    .menuOptionAlt{
+        background-color: #006eff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: white;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition: all .3s;
+    }
+
+    .menuOptionSelectedAlt{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: #006eff;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .menuOptionAlt:hover{
+        font-size: 17px;
+        background-color: #4395ff;
+    }
+
     .phoneMenu{
         display: none;
         background-color: transparent;
@@ -151,6 +187,30 @@ body{
 
     .phoneMenuOption{
         color: #000000;
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    .phoneMenuOptionSelectedAlt{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        padding: 5px 0;
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #006eff;
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    .phoneMenuOptionAlt{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        padding: 5px 0;
+        background-color: #006eff;
+        border-radius: 10px;
+        color: #ffffff;
         font-size: 8vw;
         font-weight: 700;
     }
@@ -277,6 +337,42 @@ body{
         color: #ffc900;
     }
 
+    .menuOptionAlt{
+        background-color: #006eff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: white;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition: all .3s;
+    }
+
+    .menuOptionSelectedAlt{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: #006eff;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .menuOptionAlt:hover{
+        font-size: 17px;
+        background-color: #4395ff;
+    }
+
     .phoneMenu{
         display: none;
         background-color: transparent;
@@ -340,6 +436,30 @@ body{
 
     .phoneMenuOption{
         color: #000000;
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    .phoneMenuOptionSelectedAlt{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        padding: 5px 0;
+        background-color: #ffffff;
+        border-radius: 10px;
+        color: #006eff;
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+    .phoneMenuOptionAlt{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        padding: 5px 0;
+        background-color: #006eff;
+        border-radius: 10px;
+        color: #ffffff;
         font-size: 8vw;
         font-weight: 700;
     }
@@ -466,6 +586,42 @@ body{
         color: #006eff;
     }
 
+    .menuOptionAlt{
+        background-color: #006eff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: white;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition: all .3s;
+    }
+
+    .menuOptionSelectedAlt{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: #006eff;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .menuOptionAlt:hover{
+        font-size: 17px;
+        background-color: #4395ff;
+    }
+
     .phoneMenu{
         display: none;
     }
@@ -589,6 +745,42 @@ body{
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
+    }
+
+    .menuOptionAlt{
+        background-color: #006eff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: white;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition: all .3s;
+    }
+
+    .menuOptionSelectedAlt{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: #006eff;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .menuOptionAlt:hover{
+        font-size: 17px;
+        background-color: #4395ff;
     }
 
     .menuOption:hover{
@@ -727,6 +919,42 @@ body{
         color: #006eff;
     }
 
+    .menuOptionAlt{
+        background-color: #006eff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: white;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transition: all .3s;
+    }
+
+    .menuOptionSelectedAlt{
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        display: inline;
+        margin-right: 93px;
+        color: #006eff;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .menuOptionAlt:hover{
+        font-size: 17px;
+        background-color: #4395ff;
+    }
+
     .phoneMenu{
         display: none;
     }
@@ -734,7 +962,7 @@ body{
     .phoneMenuButton{
         display: none;
     }
-    
+
     .firstContact{
         position: relative;
         padding: 100px 100px 200px 100px;

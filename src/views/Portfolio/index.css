@@ -23,22 +23,23 @@
         margin-bottom: 22px;
         width: 98%;
         height: fit-content;
-        background-color: #f0f0f0;
-        -webkit-box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%);
-        box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%)
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+        box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
     }
 
     .itemTitle{
         margin-top: 7px;
         font-size: 20px;
-        color: #00a8fe;
+        color: #006eff;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
     }
 
     .serviceType{
-        color: #000000;
+        color: #888888;
+        font-weight: 400;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -80,22 +81,23 @@
         margin-bottom: 22px;
         width: 98%;
         height: fit-content;
-        background-color: #f0f0f0;
-        -webkit-box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%);
-        box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%)
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+        box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
     }
 
     .itemTitle{
         margin-top: 7px;
         font-size: 20px;
-        color: #00a8fe;
+        color: #006eff;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
     }
 
     .serviceType{
-        color: #000000;
+        color: #888888;
+        font-weight: 400;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -117,10 +119,11 @@
     .content{
         display: block;
         position: relative;
-        padding-top: 50px;
+        padding: 50px 0px 0px 0px;
     }
 
     .projects{
+        padding: 50px;
         background-color: #fcfcfc;
         display: flex;
         flex-direction: column;
@@ -135,24 +138,25 @@
         align-items: center;
         border-radius: 7px;
         margin-bottom: 22px;
-        width: 98%;
+        width: 100%;
         height: fit-content;
-        background-color: #f0f0f0;
-        -webkit-box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%);
-        box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%)
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+        box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
     }
 
     .itemTitle{
         margin-top: 7px;
         font-size: 20px;
-        color: #00a8fe;
+        color: #006eff;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
     }
 
     .serviceType{
-        color: #000000;
+        color: #888888;
+        font-weight: 400;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -174,7 +178,7 @@
     .content{
         display: block;
         position: relative;
-        padding-top: 50px;
+        padding: 50px 0 0 0;
     }
 
     .projects{
@@ -193,22 +197,23 @@
         border-radius: 7px;
         width: 300px;
         height: 280px;
-        background-color: #f0f0f0;
-        -webkit-box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%);
-        box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%)
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+        box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
     }
 
     .itemTitle{
         margin-top: 7px;
         font-size: 20px;
-        color: #00a8fe;
+        color: #006eff;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
     }
 
     .serviceType{
-        color: #000000;
+        color: #888888;
+        font-weight: 400;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
@@ -229,7 +234,7 @@
     .content{
         display: block;
         position: relative;
-        padding-top: 50px;
+        padding: 50px 0 0 0; 
     }
 
     .projects{
@@ -248,22 +253,23 @@
         border-radius: 7px;
         width: 350px;
         height: 280px;
-        background-color: #f0f0f0;
-        -webkit-box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%);
-        box-shadow: 0 0 15px 0 rgb(0 0 0 / 21%)
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
+        box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
     }
 
     .itemTitle{
         margin-top: 7px;
         font-size: 20px;
-        color: #00a8fe;
+        color: #006eff;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
     }
 
     .serviceType{
-        color: #000000;
+        color: #888888;
+        font-weight: 400;
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
