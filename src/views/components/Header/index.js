@@ -15,6 +15,23 @@ export default function Header(props){
     const selected = props.selected;
     const bgOpacity = props.bgOpacity;
 
+    let tStart;
+    let tEnd;
+
+    window.addEventListener('touchstart', (e) => {
+        tStart = e.touches[0].screenX;
+    })
+    
+    window.addEventListener('touchend', (e) => {
+        let difference;
+        let scrHalf = window.screen.width/2;
+        tEnd = e.changedTouches[0].screenX;
+        difference = tStart-tEnd;
+        if(difference > 60 && !isMenuOpen && tStart >= scrHalf){
+            showPhoneMenu();
+        }
+    })
+
     function showPhoneMenu(){
         if(isMenuOpen){
 
@@ -55,6 +72,7 @@ export default function Header(props){
                 
                     menuPosition += 4;
                     opacity += 0.1;
+                    console.log('asdasd')
                 }
                 else{
                     clearInterval(interval);
