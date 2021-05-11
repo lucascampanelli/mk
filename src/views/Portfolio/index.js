@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import { FaChevronDown } from 'react-icons/fa';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Details from './components/details';
@@ -13,6 +14,7 @@ export default function Portfolio(){
     const [link, setLink] = useState("");
     const [opinion, setOpinion] = useState({});
     const [headerOp, setHeaderOp] = useState('00');
+    const mainSect = useRef();
 
     const titleOnix = "Onix Auto Socorro";
     const descOnix = ["A Onix Auto Socorro presta serviços de guincho e confiou na MK Studio para desenvolver sua presença na web.",
@@ -74,9 +76,10 @@ export default function Portfolio(){
             <article>
                 <section className="firstContact">
                     <h1 className="firstContactTitle">Portfólio</h1>
-                    <h2 className="firstContactSubtitle">Confira aqui os projetos que desenvolvemos para clientes que hoje fazem sucesso na web.</h2>
+                    <h2 className="firstContactSubtitle">Projetos que desenvolvemos para clientes que hoje fazem sucesso na web.</h2>
+                    <button className="firstContactButton" onClick={() => window.scroll({top:mainSect.current.getBoundingClientRect().top+window.scrollY-70, behavior:'smooth'})} >Ver projetos <FaChevronDown/></button>
                 </section>
-                <section className="content">
+                <section className="content" ref={mainSect}>
                     {
                     isDetailsOpen ?
                         <Details title={title} description={description} images={images} link={link} opinion={opinion} closeDetails={setDetailsOpen}/> :

@@ -1,8 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .firstContactTitle{
-        font-size: 35px;
-    }
     .apresentationDiv{
         width: 93%;
         margin-top: 22px;
@@ -132,9 +129,6 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .firstContactTitle{
-        font-size: 35px;
-    }
     .apresentationDiv{
         width: 93%;
         margin-top: 22px;

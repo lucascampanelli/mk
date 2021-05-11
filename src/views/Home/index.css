@@ -1,50 +1,8 @@
 @media only screen and (max-width: 600px) {
-    .firstContact{
-        padding: 100px 20px;
-        width: 100%;
-        height: 100vh;
-        background-image: url('../../assets/home_aurora.gif');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .firstContactTitle{
-        color: #ffffff;
-        font-size: 60px;
-        font-weight: 900;
-    }
-
-    .firstContactSubtitle{
-        color: #ffffff;
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .firstContactButton{
-        cursor: pointer;
-        border-radius: 50px;
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 90%;
-        padding: 5px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        font-weight: 700;
-        font-size: 24px;
-    }
-
     .mainSection{
         overflow: hidden;
         position: relative;
-        padding: 20px 30px 60vw 30px;
+        padding: 20px 30px 0px 30px;
         height: fit-content;
         width: 100%;
     }
@@ -66,6 +24,13 @@
         margin-bottom: 20px;
     }
 
+    .mainSectionContent{
+        height: fit-content;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
     .mainSectionParagraph{
         position: relative;
         z-index: 2;
@@ -77,146 +42,42 @@
     }
 
     .mainSectionVector{
+        padding-top: 60px;
         display: block;
         height: auto;
-        width: 90%;
+        width: 100%;
+    }
+
+    .mainSectionVectorDt1{
+        bottom: 80px;
+        left: 5vw;
+        position: absolute;
+        z-index: 0;
+        width: 20vw;
+        height: auto;
+        animation: forwards bubbleAnim 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes bubbleAnim {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-30px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .firstContact{
-        padding: 100px 50px;
-        width: 100%;
-        height: 100vh;
-        background-image: url('../../assets/home_aurora.gif');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .firstContactTitle{
-        color: #ffffff;
-        font-size: 60px;
-        font-weight: 900;
-    }
-
-    .firstContactSubtitle{
-        color: #ffffff;
-        font-size: 50px;
-        font-weight: 600;
-    }
-
-    .firstContactButton{
-        cursor: pointer;
-        border-radius: 50px;
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 300px;
-        padding: 5px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        font-weight: 700;
-        font-size: 28px;
-    }
-
     .mainSection{
         overflow: hidden;
         position: relative;
-        padding: 50px 60px 200px 60px;
-        height: 100vh;
-        width: 100%;
-    }
-
-    .mainSectionTitle{
-        color: #000000;
-        font-size: 55px;
-        font-weight: 700;
-        line-height: 65px;
-        margin-bottom: 20px;
-    }
-
-    .mainSectionSubitle{
-        width: 90%;
-        color: #000000;
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 40px;
-        margin-bottom: 50px;
-    }
-
-    .mainSectionParagraph{
-        position: relative;
-        z-index: 2;
-        color: #888888;
-        font-size: 22px;
-        font-weight: 400;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .mainSectionVector{
-        display: block;
-        height: auto;
-        width: 90%;
-    }
-}
-
-@media only screen and (width: 720px) {
-    .firstContact{
-        padding: 100px 100px;
-        width: 100%;
-        height: 100vh;
-        background-image: url('../../assets/home_aurora.gif');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .firstContactTitle{
-        color: #ffffff;
-        font-size: 60px;
-        font-weight: 900;
-    }
-
-    .firstContactSubtitle{
-        color: #ffffff;
-        font-size: 40px;
-        line-height: 46px;
-        font-weight: 600;
-    }
-
-    .firstContactButton{
-        cursor: pointer;
-        border-radius: 50px;
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 300px;
-        padding: 5px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        font-weight: 700;
-        font-size: 28px;
-    }
-
-    .mainSection{
-        overflow: hidden;
-        position: relative;
-        padding: 30px 60px 400px 60px;
+        padding: 50px 60px 0px 60px;
         height: fit-content;
         width: 100%;
     }
@@ -238,72 +99,61 @@
         margin-bottom: 50px;
     }
 
+    .mainSectionContent{
+        height: fit-content;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
     .mainSectionParagraph{
         position: relative;
         z-index: 2;
         color: #888888;
-        font-size: 22px;
+        font-size: 4vw;
         font-weight: 400;
         width: 100%;
         margin-bottom: 10px;
     }
 
     .mainSectionVector{
+        padding-top: 60px;
         display: block;
         height: auto;
-        width: 90%;
+        width: 100%;
+    }
+
+    .mainSectionVectorDt1{
+        bottom: 150px;
+        left: 5vw;
+        position: absolute;
+        z-index: 0;
+        width: 20vw;
+        height: auto;
+        animation: forwards bubbleAnim 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes bubbleAnim {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-30px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .firstContact{
-        padding: 100px 100px;
-        width: 100%;
-        height: 100vh;
-        background-image: url('../../assets/home_aurora.gif');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .firstContactTitle{
-        color: #ffffff;
-        font-size: 60px;
-        font-weight: 900;
-    }
-
-    .firstContactSubtitle{
-        color: #ffffff;
-        font-size: 50px;
-        font-weight: 600;
-    }
-
-    .firstContactButton{
-        cursor: pointer;
-        border-radius: 50px;
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 300px;
-        padding: 5px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        font-weight: 700;
-        font-size: 28px;
-    }
-
     .mainSection{
         overflow: hidden;
         position: relative;
-        padding: 100px 60px 200px 60px;
-        height: 100vh;
+        padding: 100px 60px 0px 60px;
+        height: fit-content;
         width: 100%;
     }
 
@@ -324,66 +174,56 @@
         margin-bottom: 50px;
     }
 
+    .mainSectionContent{
+        height: fit-content;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
     .mainSectionParagraph{
         position: relative;
         z-index: 2;
         color: #888888;
-        font-size: 22px;
+        font-size: 4vw;
         font-weight: 400;
         width: 100%;
         margin-bottom: 10px;
     }
 
     .mainSectionVector{
+        padding-top: 60px;
         display: block;
         height: auto;
-        width: 90%;
+        width: 100%;
+    }
+
+    .mainSectionVectorDt1{
+        bottom: 150px;
+        left: 5vw;
+        position: absolute;
+        z-index: 0;
+        width: 20vw;
+        height: auto;
+        animation: forwards bubbleAnim 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes bubbleAnim {
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-30px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .firstContact{
-        padding: 100px 100px;
-        width: 100%;
-        height: 100vh;
-        background-image: url('../../assets/home_aurora.gif');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .firstContactTitle{
-        color: #ffffff;
-        font-size: 60px;
-        font-weight: 900;
-    }
-
-    .firstContactSubtitle{
-        color: #ffffff;
-        font-size: 50px;
-        font-weight: 600;
-    }
-
-    .firstContactButton{
-        cursor: pointer;
-        border-radius: 50px;
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 200px;
-        padding: 5px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        font-weight: 700;
-        font-size: 20px;
-    }
 
     .mainSection{
         overflow: hidden;
@@ -436,6 +276,7 @@
 
     .mainSectionVectorDt1{
         top: -50px;
+        left: auto;
         right: 300px;
         position: absolute;
         width: 100px;
@@ -459,49 +300,6 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .firstContact{
-        padding: 100px 100px;
-        width: 100%;
-        height: 100vh;
-        background-image: url('../../assets/home_aurora.gif');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .firstContactTitle{
-        color: #ffffff;
-        font-size: 60px;
-        font-weight: 900;
-    }
-
-    .firstContactSubtitle{
-        color: #ffffff;
-        font-size: 50px;
-        font-weight: 600;
-        line-height: 60px;
-    }
-
-    .firstContactButton{
-        cursor: pointer;
-        border-radius: 50px;
-        position: absolute;
-        bottom: 50px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 200px;
-        padding: 5px 20px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        text-align: center;
-        font-weight: 700;
-        font-size: 20px;
-    }
-
     .mainSection{
         overflow: hidden;
         position: relative;
@@ -553,6 +351,7 @@
 
     .mainSectionVectorDt1{
         top: -100px;
+        left: auto;
         right: 400px;
         position: absolute;
         width: 150px;

@@ -20,10 +20,7 @@ export default function Orcamento(){
             <article>
                 <section className="firstContact">
                     <h1 className="firstContactTitle">Orçamento</h1>
-                    <h2 className="firstContactSubtitle">Entre em contato conosco</h2>
-                    <div className="apresentationDiv">
-                        <p className="apresentationDesc">Você está no lugar certo! A MK Studio tem experiência e utiliza as tecnologias mais modernas para divulgar o seu negócio</p>
-                    </div>
+                    <h2 className="firstContactSubtitle">Deixa que a gente te ajuda! Faça um orçamento para sua página.</h2>
                 </section>
                 <section className="contact">
                     <h2 className="titleBlack">Fale um pouco sobre o seu negócio</h2>
