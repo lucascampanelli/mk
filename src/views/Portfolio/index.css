@@ -13,6 +13,7 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 22px;
+        padding: 30px;
     }
 
     .contentItem{
@@ -71,6 +72,7 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 22px;
+        padding: 50px;
     }
 
     .contentItem{
@@ -79,7 +81,7 @@
         align-items: center;
         border-radius: 7px;
         margin-bottom: 22px;
-        width: 98%;
+        width: 100%;
         height: fit-content;
         background-color: #ffffff;
         -webkit-box-shadow: 0 0 12px 0 rgb(0 0 0 / 10%);
