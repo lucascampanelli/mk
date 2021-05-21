@@ -9,14 +9,12 @@ import './index.css';
 export default function Portfolio(){
 
     const [isDetailsOpen, setDetailsOpen] = useState(false);
-    const [title, setTitle] = useState("");
-    const [description, setDescription] = useState("");
-    const [images, setImages] = useState({});
-    const [link, setLink] = useState("");
-    const [opinion, setOpinion] = useState({});
+
     const [headerOp, setHeaderOp] = useState('00');
-    const [banner, setBanner] = useState("");
+
     const mainSect = useRef();
+
+    const [port, setPortifolio] = useState([]);
 
     window.onscroll = () => {
         const scr = document.documentElement.scrollTop;
@@ -28,12 +26,7 @@ export default function Portfolio(){
 
         for(let i = 0; i <= portifolio.length;i++){
             if(name === portifolio[i].key){
-                setTitle(portifolio[i].title);
-                setDescription(portifolio[i].description);
-                setImages(portifolio[i].images);
-                setBanner(portifolio[i].banner);
-                setLink(portifolio[i].link);
-                setOpinion(portifolio[i].opnion);
+                setPortifolio(portifolio[i])
                 setDetailsOpen(true);
                 break;
             }
@@ -53,7 +46,7 @@ export default function Portfolio(){
                 <section className="content" ref={mainSect}>
                     {
                     isDetailsOpen ?
-                        <Details title={title} banner={banner} description={description} images={images} link={link} opinion={opinion} closeDetails={setDetailsOpen}/> :
+                        <Details port ={port} closeDetails={setDetailsOpen}/> :
                         <div className="projects">
 
                             <div className="contentItem" onClick={() => openDetails("Onix")}>

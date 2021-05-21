@@ -4,8 +4,8 @@ import {FiArrowLeft, FiArrowRight} from 'react-icons/fi';
 import { useHistory } from 'react-router';
 
 export default function Details(props){
-    const {banner, title, description, images, opinion, link} = props;
-
+    const {port} = props;
+    const {banner, title, description, images, opinion, link} = port
     const setDetailsOpen = props.closeDetails;
     const history = useHistory();
 
@@ -20,6 +20,7 @@ export default function Details(props){
                         </div>
                         <div className="presentationRight">
                             <h2 className="projectName">{title}</h2>
+
                             {
                                 description.map(paragrafo => (
                                     <p className="projectDescription">{paragrafo}</p>
