@@ -4,12 +4,8 @@ import {FiArrowLeft, FiArrowRight} from 'react-icons/fi';
 import { useHistory } from 'react-router';
 
 export default function Details(props){
+    const {banner, title, description, images, opinion, link} = props;
 
-    const title = props.title;
-    const description = props.description;
-    const images = props.images;
-    const opinion = props.opinion;
-    const link = props.link;
     const setDetailsOpen = props.closeDetails;
     const history = useHistory();
 
@@ -20,21 +16,24 @@ export default function Details(props){
                 <div className="presentation">
                     <div className="detailPresentation">
                         <div className="presentationLeft">
-                            <img className="banner" src={images.banner}/>
+                            <img className="banner" src={banner}/>
                         </div>
                         <div className="presentationRight">
                             <h2 className="projectName">{title}</h2>
-                            {description.map(paragrafo => (
-                                <p className="projectDescription">{paragrafo}</p>
-                            ))}
+                            {
+                                description.map(paragrafo => (
+                                    <p className="projectDescription">{paragrafo}</p>
+                                ))
+                            }
                             <a className="linkProject" href={link} target="_blank">Visitar site <FiArrowRight/> </a>
                         </div>
                     </div>
                     <div className="imageList">
-                        <img className="imagePresentation" src={images.img1}/>
-                        <img className="imagePresentation" src={images.img2}/>
-                        <img className="imagePresentation" src={images.img3}/>
-                        <img className="imagePresentation" src={images.img4}/>
+                        {
+                            images.map(image => (
+                                <img className="imagePresentation" src={image}/>
+                            ))
+                        }
                     </div>
                 </div>
             </section>

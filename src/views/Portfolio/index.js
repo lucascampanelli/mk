@@ -3,6 +3,7 @@ import { FaChevronDown } from 'react-icons/fa';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Details from './components/details';
+import portifolio from './portifolio.json';
 import './index.css';
 
 export default function Portfolio(){
@@ -14,29 +15,8 @@ export default function Portfolio(){
     const [link, setLink] = useState("");
     const [opinion, setOpinion] = useState({});
     const [headerOp, setHeaderOp] = useState('00');
+    const [banner, setBanner] = useState("");
     const mainSect = useRef();
-
-    const titleOnix = "Onix Auto Socorro";
-    const descOnix = ["A Onix Auto Socorro presta serviços de guincho e confiou na MK Studio para desenvolver sua presença na web.",
-                      "Foram realizados serviços de criação de identidade visual, landing page e redes sociais.",
-                      "Com auxílio de estratégias de SEO e Marketing Digital, a Onix Auto Socorro conseguiu alcançar um público maior e está se destacando no mercado."];
-    const imagesOnix = {banner: "OnixAutoSocorro.png",
-                        img1: "OnixAutoSocorro2.png",
-                        img2: "OnixAutoSocorro3.png",
-                        img3: "OnixAutoSocorro4.png",
-                        img4: "OnixAutoSocorro5.png"};
-    const linkOnix = "https://onixautosocorro.herokuapp.com/";
-    const opinionOnix = {message: "A melhor coisa que fizemos para alavancar nossas conversões foi contar com a MK Studio. Entregaram uma landing page em menos de uma semana e em poucos dias estávamos recebendo um número muito maior de ligações. Se você tiver oportunidade, conte com a MK Studio!!",
-                         author: "Onix Auto Socorro"}
-
-    const titleOnixLogo = "Onix Auto Socorro";
-    const descOnixLogo = ["A Onix Auto Socorro presta serviços de guincho e confiou na MK Studio para desenvolver sua presença na web.",
-                          "Foram realizados serviços de criação de identidade visual, landing page e redes sociais.",
-                          "Com auxílio de estratégias de SEO e Marketing Digital, a Onix Auto Socorro conseguiu alcançar um público maior e está se destacando no mercado."];
-    const imagesOnixLogo = {banner: "onixlogo.png"};
-    const linkOnixLogo = "https://onixautosocorro.herokuapp.com/";
-    const opinionOnixLogo = {message: "A identidade visual criada pela MK Studio deu uma cara nova para a Onix Auto Socorro. O logotipo moderno e original fez muitos clientes nos reconhecerem pelas ruas.",
-                             author: "Onix Auto Socorro"}
 
     window.onscroll = () => {
         const scr = document.documentElement.scrollTop;
@@ -45,27 +25,18 @@ export default function Portfolio(){
     }
 
     function openDetails(name){
-        switch (name) {
-            case "Onix":
-                setTitle(titleOnix);
-                setDescription(descOnix);
-                setImages(imagesOnix);
-                setLink(linkOnix);
-                setOpinion(opinionOnix);
-                setDetailsOpen(true);
-                break;
-            
-            case "Onix Logo":
-                setTitle(titleOnixLogo);
-                setDescription(descOnixLogo);
-                setImages(imagesOnixLogo);
-                setLink(linkOnixLogo);
-                setOpinion(opinionOnixLogo);
-                setDetailsOpen(true);
-                break;
 
-            default:
+        for(let i = 0; i <= portifolio.length;i++){
+            if(name === portifolio[i].key){
+                setTitle(portifolio[i].title);
+                setDescription(portifolio[i].description);
+                setImages(portifolio[i].images);
+                setBanner(portifolio[i].banner);
+                setLink(portifolio[i].link);
+                setOpinion(portifolio[i].opnion);
+                setDetailsOpen(true);
                 break;
+            }
         }
     }
 
@@ -82,13 +53,15 @@ export default function Portfolio(){
                 <section className="content" ref={mainSect}>
                     {
                     isDetailsOpen ?
-                        <Details title={title} description={description} images={images} link={link} opinion={opinion} closeDetails={setDetailsOpen}/> :
+                        <Details title={title} banner={banner} description={description} images={images} link={link} opinion={opinion} closeDetails={setDetailsOpen}/> :
                         <div className="projects">
+
                             <div className="contentItem" onClick={() => openDetails("Onix")}>
                                 <img className="miniatureItem" src="OnixAutoSocorro.png" alt="Serviço de criação de site da MK Studio" />
                                 <h3 className="itemTitle">Onix Auto Socorro</h3>
                                 <span className="serviceType">Criação de site</span>
                             </div>
+
                             <div className="contentItem" onClick={() => openDetails("Onix Logo")}>
                                 <img className="miniatureItem" src="onixlogo.png" alt="Serviço de criação de site da MK Studio" />
                                 <h3 className="itemTitle">Onix Auto Socorro</h3>

@@ -1,0 +1,53 @@
+[
+    {
+        "title":"Onix Auto Socorro",
+
+        "key":"Onix",
+
+        "description":[
+            "A Onix Auto Socorro presta serviços de guincho e confiou na MK Studio para desenvolver sua presença na web.",
+            "Foram realizados serviços de criação de identidade visual, landing page e redes sociais.",
+            "Com auxílio de estratégias de SEO e Marketing Digital, a Onix Auto Socorro conseguiu alcançar um público maior e está se destacando no mercado."
+        ],
+
+        "banner":"OnixAutoSocorro.png",
+
+        "images":[
+            "OnixAutoSocorro2.png",
+            "OnixAutoSocorro3.png",
+            "OnixAutoSocorro4.png",
+            "OnixAutoSocorro5.png"
+        ],
+
+        "link":"https://onixautosocorro.herokuapp.com/",
+        "opnion":{
+            "message": "A melhor coisa que fizemos para alavancar nossas conversões foi contar com a MK Studio. Entregaram uma landing page em menos de uma semana e em poucos dias estávamos recebendo um número muito maior de ligações. Se você tiver oportunidade, conte com a MK Studio!!",
+            "author": "Onix Auto Socorro"
+        }
+    },
+
+    {
+        "title":"Onix Auto Socorro",
+
+        "key":"Onix Logo",
+
+        "description":[
+            "A Onix Auto Socorro presta serviços de guincho e confiou na MK Studio para desenvolver sua presença na web.",
+            "Foram realizados serviços de criação de identidade visual, landing page e redes sociais.",
+            "Com auxílio de estratégias de SEO e Marketing Digital, a Onix Auto Socorro conseguiu alcançar um público maior e está se destacando no mercado."
+        ],
+
+        "banner":"onixlogo.png",
+
+        "images":[
+            
+        ],
+
+        "link":"https://onixautosocorro.herokuapp.com/",
+
+        "opnion":{
+            "message": "A identidade visual criada pela MK Studio deu uma cara nova para a Onix Auto Socorro. O logotipo moderno e original fez muitos clientes nos reconhecerem pelas ruas.",
+            "author": "Onix Auto Socorro"
+        }
+    }
+]
