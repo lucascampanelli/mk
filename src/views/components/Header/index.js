@@ -58,7 +58,7 @@ export default function Header(props){
         else {
             let menuPosition = -100;
             let opacity = 0;
-            
+
             phoneMenuPanel.current.style.right = menuPosition + 'vw';
             phoneMenuBackdrop.current.style.opacity = opacity;
             
@@ -72,7 +72,6 @@ export default function Header(props){
                 
                     menuPosition += 4;
                     opacity += 0.1;
-                    console.log('asdasd')
                 }
                 else{
                     clearInterval(interval);

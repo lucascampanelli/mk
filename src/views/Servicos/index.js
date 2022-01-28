@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { ReactComponent as MKNBVECTOR } from '../../assets/mk_nbvector.svg';
+import { ReactComponent as MKWBVECTOR } from '../../assets/mk_wbvector.svg';
 import './index.css';
 
 export default function Servicos(){
@@ -32,7 +32,7 @@ export default function Servicos(){
                             <p className="servicesDescription">Seja qual for a necessidade do seu negócio, nós podemos solucioná-las com um site.</p>
                         </div>
                         <div className="contentRight">
-                            <MKNBVECTOR className="contentIllustration"/>
+                            <MKWBVECTOR className="contentIllustration"/>
                         </div>
 
                         <div className="contentLeft">
@@ -41,7 +41,7 @@ export default function Servicos(){
                             <p className="servicesDescription">Nós fazemos criação de logos e designs que destacam o seu projeto.</p>
                         </div>
                         <div className="contentRight">
-                            <MKNBVECTOR className="contentIllustration"/>
+                            <MKWBVECTOR className="contentIllustration"/>
                         </div>
 
                         <div className="contentLeft">
@@ -50,7 +50,7 @@ export default function Servicos(){
                             <p className="servicesDescription">Criamos ilustrações e vetorizações de acordo com o que você precisar.</p>
                         </div>
                         <div className="contentRight">
-                            <MKNBVECTOR className="contentIllustration"/>
+                            <MKWBVECTOR className="contentIllustration"/>
                         </div>
                     </div>
                 </section>

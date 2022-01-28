@@ -1,0 +1,67 @@
+<svg width="1360mm" height="768mm" version="1.1" viewBox="0 0 1360 768" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<filter id="filter1008" x="-2.4702e-6" y="-8.448e-5" width="1" height="1.0002" color-interpolation-filters="sRGB">
+			<feGaussianBlur stdDeviation="0.00052684167"/>
+		</filter>
+	</defs>
+	<g>
+		<path d="m66.059 769.67c-40.831-204.16-93.323-547 210.87-624.58 304.19-77.58 533.55 201.88 800.64-68.292 251.11-254.02 391.13 324.63 80.734 686.75-182.11 212.45-1092.2 6.1247-1092.2 6.1247z" fill="#197bff"/>
+		<rect transform="matrix(1.025 0 0 -8.396 -57.941 6122.9)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#c9c9c9" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<g stroke-dashoffset="188.98" stroke-linecap="round" stroke-linejoin="round">
+			<rect transform="matrix(1 0 .14295 .98973 0 0)" x="406.66" y="181.67" width="201.18" height="321.79" rx="20.953" fill="#5b5b5b" stroke-width="9.5139" style="paint-order:fill markers stroke"/>
+			<rect transform="matrix(1 0 .14295 .98973 0 0)" x="406.66" y="181.67" width="25.609" height="321.79" rx="9.7057" stroke-width="3.3943" style="paint-order:fill markers stroke"/>
+			<rect transform="matrix(1 0 .14295 .98973 0 0)" x="458.67" y="220.12" width="132.7" height="243.21" rx="13.821" fill="#00ecff" stroke-width="6.7175" style="paint-order:fill markers stroke"/>
+			<rect x="511.18" y="495.08" width="106.12" height="81.603" fill="#5b5b5b" stroke-width="3.4797" style="paint-order:fill markers stroke"/>
+		</g>
+	</g>
+	<g stroke-dashoffset="188.98" stroke-linecap="round" stroke-linejoin="round">
+		<rect transform="matrix(-1 -.00099895 -.52169 .85313 0 0)" x="-970.78" y="637.47" width="136.81" height="37.439" rx="8.5427" stroke-width="2.6761" style="paint-order:fill markers stroke"/>
+		<rect x="511.18" y="498.29" width="38.305" height="47.993" stroke-width="1.6032" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14923 .9888 0 0)" x="455.7" y="220.33" width="132.7" height="243.44" rx="13.821" stroke-width="6.7207" style="paint-order:fill markers stroke"/>
+	</g>
+	<rect transform="matrix(1 0 .14923 .9888 0 0)" x="566.4" y="192.1" width="132.7" height="243.44" rx="13.821" fill="#fff" stroke-dashoffset="188.98" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.7207" style="paint-order:fill markers stroke"/>
+	<g>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="673.71" y="210.54" width="53.259" height="12.319" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="738.14" y="210.54" width="27.188" height="12.319" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="673.71" y="250.15" width="95.659" height="7.8841" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="673.71" y="277.05" width="85.388" height="7.8841" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="673.71" y="303.66" width="91.445" height="7.8841" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="673.71" y="329.08" width="50.888" height="7.8841" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="737.7" y="329.24" width="31.137" height="7.5643" style="paint-order:fill markers stroke"/>
+	</g>
+	<g>
+		<rect transform="matrix(1 0 .14961 .98874 0 0)" x="672.59" y="352.89" width="104.6" height="56.139" fill="#19d0ff" stroke-dashoffset="188.98" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.8653" style="paint-order:fill markers stroke"/>
+		<path d="m821.48 389.22h104.6l-3.5671-23.573s-21.76-34.107-38.845-21.291c-17.085 12.816-16.091 24.283-30.3 18.397-28.441-11.782-34.798 7.2346-34.798 7.2346z" fill="#ffd800"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="474" y="239.67" width="95.659" height="7.8841" fill="#ffd800" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="474" y="266.57" width="85.388" height="7.8841" fill="#fff" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="474" y="293.18" width="91.445" height="7.8841" fill="#85ff00" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="474" y="318.6" width="50.888" height="7.8841" fill="#197bff" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="537.99" y="318.76" width="31.137" height="7.5643" fill="#ffd800" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="538.52" y="239.67" width="31.137" height="7.5643" fill="#fff" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="505.28" y="266.89" width="31.137" height="7.5643" fill="#197bff" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="471.34" y="352.65" width="95.659" height="7.8841" fill="#85ff00" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="471.34" y="379.56" width="85.388" height="7.8841" fill="#197bff" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="471.34" y="406.16" width="91.445" height="7.8841" fill="#fff" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="471.34" y="431.59" width="50.888" height="7.8841" fill="#85ff00" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="535.33" y="431.75" width="31.137" height="7.5643" fill="#197bff" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="535.86" y="352.81" width="31.137" height="7.5643" fill="#fff" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 0 .14907 .98883 0 0)" x="502.48" y="379.56" width="31.137" height="7.5643" fill="#ffd800" style="paint-order:fill markers stroke"/>
+	</g>
+	<path d="m461.08 376.79s-128.81-9.8309-33.024 91.945c28.065 29.819 46.079 72.184 28.165 85.642-26.165 19.658-49.086 14.909-78.03 66.939-26.594 47.806 55.895 151.15 55.895 151.15" fill="none" stroke="#000" stroke-width="7.9375"/>
+	<g>
+		<rect transform="matrix(.21582 0 0 -8.3963 397.37 6123)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#fff" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(.15751 0 0 -2.3149 446.65 2183.3)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#e2e2e2" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(.058307 0 0 -8.3967 449.88 6123.3)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#a3a3a3" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(.21582 0 0 -8.3963 827.49 6123)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#fff" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(.058307 0 0 -8.3967 880 6123.3)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#a3a3a3" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(.052379 0 0 -8.3967 266.36 6123.3)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#a3a3a3" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1.5304 0 0 6.6002 -259.8 -3632.8)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#fff" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(1 -.00099895 .52169 .85313 0 0)" x="168.15" y="638.8" width="136.81" height="37.439" rx="8.5427" fill="#5b5b5b" stroke-dashoffset="188.98" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6761" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(.41347 0 0 6.6005 112.61 -3633)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#a3a3a3" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<rect transform="matrix(.15751 0 0 -2.0998 876.77 2046.1)" x="333.41" y="637.79" width="511.87" height="14.967" fill="#e2e2e2" filter="url(#filter1008)" style="paint-order:fill markers stroke"/>
+		<path d="m879.75 576.68s0.4213-29.79-20.954-31.134c-64.444-4.0518-70.72 31.134-62.862 31.134z" fill="#5b5b5b"/>
+		<rect x="549.48" y="498.29" width="67.82" height="23.997" fill="#393939" stroke-dashoffset="188.98" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5084" style="paint-order:fill markers stroke"/>
+	</g>
+	<path d="m855.93 372.68c1.8084-12.379 5.2925-25.596-11.225-28.812" fill="none" stroke="#dd994a" stroke-width="7.9375"/>
+	<path d="m846.54 363.71c-8.5343-9.2284-2.4197-14.006-1.8333-19.843-8.3961-1.5705-18.615-5.4193-18.962 3.0709l18.962-3.0709c-4.4994-9.7432-3.1056-19.217 5.6244-20.017l-5.6244 20.017c6.2488-2.2371 11.139-9.8256 23.438 0.0493" fill="none" stroke="#85ff00" stroke-width="7.9375"/>
+</svg>
